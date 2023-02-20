@@ -1,11 +1,11 @@
 version: 0.2
 env:
   variables:
-    S3_BUCKET: "buyermodule-indi"
+    S3_BUCKET: "testbuyer"
 phases:
   install:
     runtime-versions:
-      nodejs: 14.x
+      nodejs: 14
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
