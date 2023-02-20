@@ -7,9 +7,18 @@ phases:
     runtime-versions:
         nodejs: 16
     commands:
-        - echo Installing source NPM dependencies...
-        - npm install
-        - npm install -g @angular/cli
+      - curl google.com
+      - npm config set registry https://registry.npmjs.org/
+      - curl https://registry.npmjs.org/
+      - npm cache clear --force
+      - echo Installing source NPM dependencies...
+      - npm install
+      - npm install -g @angular/cli
+      - rm -rf node_modules/ngx-treeview
+      - mkdir ngx-treeview
+      - cp -r ngx-treeview node_modules/
+      - cp -r ./ngx-treeview-sample/* ./node_modules/ngx-treeview
+      - rm -rf ngx-treeview
   build:
     commands:
         - echo Build started 
