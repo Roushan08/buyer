@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* The container */
+.clr1 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+/* Hide the browser's default checkbox */
+.clr1 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+/* Create a custom checkbox */
+.clra { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #F9EBEA; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+/* On mouse-over, add a grey background color */
+.clr1:hover input ~ .clra { background-color: #F9EBEA;}
+/* When the checkbox is checked, add a blue background */
+.clr1 input:checked ~ .clra {background-color: #F9EBEA;}
+/* Create the checkmark/indicator (hidden when not checked) */
+.clra:after {content: ""; position: absolute; display: none;}
+/* Show the checkmark when checked */
+.clr1 input:checked ~ .clra:after {display: block;}
+/* Style the checkmark/indicator */
+.clr1 .clra:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+
+/*clr2 STARTS*/
+.clr2 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr2 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrb { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #FADBD8; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr2:hover input ~ .clrb { background-color: #FADBD8;}
+.clr2 input:checked ~ .clrb {background-color: #FADBD8;}
+.clrb:after {content: ""; position: absolute; display: none;}
+.clr2 input:checked ~ .clrb:after {display: block;}
+.clr2 .clrb:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr2 ENDS*/
+/*clr3 STARTS*/
+.clr3 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr3 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrc { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #E8DAEF; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr3:hover input ~ .clrc { background-color: #E8DAEF;}
+.clr3 input:checked ~ .clrc {background-color: #E8DAEF;}
+.clrc:after {content: ""; position: absolute; display: none;}
+.clr3 input:checked ~ .clrc:after {display: block;}
+.clr3 .clrc:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr3 ENDS*/
+/*clr4 STARTS*/
+.clr4 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr4 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrd { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #EAF2F8; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr4:hover input ~ .clrd { background-color: #EAF2F8;}
+.clr4 input:checked ~ .clrd {background-color: #EAF2F8;}
+.clrd:after {content: ""; position: absolute; display: none;}
+.clr4 input:checked ~ .clrd:after {display: block;}
+.clr4 .clrd:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr4 ENDS*/
+/*clr5 STARTS*/
+.clr5 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr5 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clre { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #EBF5FB; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr5:hover input ~ .clre { background-color: #EBF5FB;}
+.clr5 input:checked ~ .clre {background-color: #EBF5FB;}
+.clre:after {content: ""; position: absolute; display: none;}
+.clr5 input:checked ~ .clre:after {display: block;}
+.clr5 .clre:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr5 ENDS*/
+/*clr6 STARTS*/
+.clr6 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr6 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrf { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #E8F6F3; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr6:hover input ~ .clrf { background-color: #E8F6F3;}
+.clr6 input:checked ~ .clrf {background-color: #E8F6F3;}
+.clrf:after {content: ""; position: absolute; display: none;}
+.clr6 input:checked ~ .clrf:after {display: block;}
+.clr6 .clrf:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr6 ENDS*/
+/*clr7 STARTS*/
+.clr7 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr7 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrg { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #EAFAF1 ; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr7:hover input ~ .clrg { background-color: #EAFAF1 ;}
+.clr7 input:checked ~ .clrg {background-color: #EAFAF1 ;}
+.clrg:after {content: ""; position: absolute; display: none;}
+.clr7 input:checked ~ .clrg:after {display: block;}
+.clr7 .clrg:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr7 ENDS*/
+/*clr8 STARTS*/
+.clr8 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr8 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrh { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #FCF3CF; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr8:hover input ~ .clrh { background-color: #FCF3CF;}
+.clr8 input:checked ~ .clrh {background-color: #FCF3CF;}
+.clrh:after {content: ""; position: absolute; display: none;}
+.clr8 input:checked ~ .clrh:after {display: block;}
+.clr8 .clrh:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr8 ENDS*/
+/*clr9 STARTS*/
+.clr9 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr9 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clri { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #D5F5E3; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr9:hover input ~ .clri { background-color: #D5F5E3;}
+.clr9 input:checked ~ .clri {background-color: #D5F5E3;}
+.clri:after {content: ""; position: absolute; display: none;}
+.clr9 input:checked ~ .clri:after {display: block;}
+.clr9 .clri:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr9 ENDS*/
+/*clr10 STARTS*/
+.clr10 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr10 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrj { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #BFC9CA; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr10:hover input ~ .clrj { background-color: #BFC9CA;}
+.clr10 input:checked ~ .clrj {background-color: #BFC9CA;}
+.clrj:after {content: ""; position: absolute; display: none;}
+.clr10 input:checked ~ .clrj:after {display: block;}
+.clr10 .clrj:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr10 ENDS*/
+/*clr11 STARTS*/
+.clr11 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr11 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrk { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #F9E79F; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr11:hover input ~ .clrk { background-color: #F9E79F;}
+.clr11 input:checked ~ .clrk {background-color: #F9E79F;}
+.clrk:after {content: ""; position: absolute; display: none;}
+.clr11 input:checked ~ .clrk:after {display: block;}
+.clr11 .clrk:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr11 ENDS*/
+/*clr12 STARTS*/
+.clr12 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr12 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrl { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #AAB7B8; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr12:hover input ~ .clrl { background-color: #AAB7B8;}
+.clr12 input:checked ~ .clrl {background-color: #AAB7B8;}
+.clrl:after {content: ""; position: absolute; display: none;}
+.clr12 input:checked ~ .clrl:after {display: block;}
+.clr12 .clrl:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr12 ENDS*/
+/*clr13 STARTS*/
+.clr13 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr13 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrm { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #76D7C4; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr13:hover input ~ .clrm { background-color: #76D7C4;}
+.clr13 input:checked ~ .clrm {background-color: #76D7C4;}
+.clrm:after {content: ""; position: absolute; display: none;}
+.clr13 input:checked ~ .clrm:after {display: block;}
+.clr13 .clrm:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr13 ENDS*/
+/*clr14 STARTS*/
+.clr14 {display: inline-block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.clr14 input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.clrn { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #FDEBD0; border-radius: 50%!important; margin: 0px 5px 5px 0px;}
+.clr14:hover input ~ .clrn { background-color: #FDEBD0;}
+.clr14 input:checked ~ .clrn {background-color: #FDEBD0;}
+.clrn:after {content: ""; position: absolute; display: none;}
+.clr14 input:checked ~ .clrn:after {display: block;}
+.clr14 .clrn:after {left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+/*clr14 ENDS*/

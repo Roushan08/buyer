@@ -1,0 +1,74 @@
+{
+	"Our Story": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "Our Story"
+			},
+			{
+				"name": "description",
+				"content": "ExpoBazaar, a subsidiary of India Exposition Mart was launched with an idea of showcasing India’s exquisite merchandise to international markets and give back to the society by creating a social, economic and cultural impact on the lives of small manufacturers, suppliers, artisans and more."
+			}
+		]
+	},
+    "Contact us": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "Contact us"
+			},
+			{
+				"name": "description",
+				"content": "In case of product related or any other query, kindly contact us on sellers@expobazaar.com"
+			}
+		]
+	},
+    "FAQ": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "FAQ"
+			},
+			{
+				"name": "description",
+				"content": "Find frequently asked questions related to products, services, troubles related to signing in or signing up and more. Get Help."
+			}
+		]
+	},
+    "Privacy Policy": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "Privacy Policy"
+			},
+			{
+				"name": "description",
+				"content": "At ExpoBazaar, we take your data privacy seriously. Our privacy policy reflects how we use, collect and share your data and personal information."
+			}
+		]
+	},
+    "Terms Of Use": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "Terms of Use"
+			},
+			{
+				"name": "description",
+				"content": "These terms and conditions depict the way ExpoBazaar functions and operates. By using or otherwise accessing the Services, or any component, in any manner, you agree to be bound by and comply with our terms and conditions."
+			}
+		]
+	},
+    "Shared Values": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "Shared Values"
+			},
+			{
+				"name": "description",
+				"content": "We at ExpoBazaar, dedicated to embracing our world by opting for more sustainable and eco-friendly alternatives"
+			}
+		]
+	}
+}
